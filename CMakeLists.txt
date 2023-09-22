@@ -5,21 +5,26 @@ project(GUI VERSION 1.0.0)
 
 # add_subdirectory(Snake_logic)
 
-add_executable(GUI 
+# add_executable(GUI 
+# main.cpp 
+# Button.cpp 
+# Dialog.cpp 
+# Logo.cpp
+# )
+
+
+
+
+set(SOURCES 
+main.cpp
 main.cpp 
 Button.cpp 
 Dialog.cpp 
-Logo.cpp
-)
+Logo.cpp)
 
 
-
-
-# set(SOURCES main.cpp)
-
-
-# add_executable(Snake 
-# ${SOURCES})
+add_executable(GUI 
+${SOURCES})
 
 
 

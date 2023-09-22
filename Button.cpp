@@ -22,7 +22,7 @@ Button::Button(const std::string text, float fontSize, sf::Vector2f size, sf::Ve
 
     buttonText->setString(text);
     buttonText->setFillColor(textColorr);
-    font->loadFromFile("Arimo Bold for Powerline.ttf");
+    font->loadFromFile("../fonts/Arimo Bold for Powerline.ttf");
     buttonText->setFont((*font));
     buttonText->setCharacterSize(fontSize);
     buttonText->setOrigin(buttonText->getGlobalBounds().width / 2, buttonText->getGlobalBounds().height);

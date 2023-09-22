@@ -6,7 +6,7 @@
 Logo::Logo(std::string text)
 {
 
-    f1.loadFromFile("SnakeOutlineDemo-nRE5V.otf");
+    f1.loadFromFile("../fonts/SnakeOutlineDemo-nRE5V.otf");
     t1.setCharacterSize(150);
     t1.setFont(f1);
     t1.setString(text);

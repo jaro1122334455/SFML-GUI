@@ -21,7 +21,7 @@ Dialog::Dialog()
     float newX = (setup::W - dialWidth) / 2;
     float newY = (setup::H - dialHeight) / 2;
 
-    this->f1->loadFromFile("Arimo Bold for Powerline.ttf");
+    this->f1->loadFromFile("../fonts/Arimo Bold for Powerline.ttf");
     this->dialText->setString("YOU LOSE\n SCORE: 0");
     this->dialText->setFont(*f1);
     this->dialText->setCharacterSize(40);
