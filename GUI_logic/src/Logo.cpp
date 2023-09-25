@@ -1,5 +1,5 @@
-#include "Logo.h"
-#include "setup.h"
+#include "GUI_logic/Logo.h"
+#include "GUI_logic/setup.h"
 
 
 

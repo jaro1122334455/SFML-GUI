@@ -37,7 +37,7 @@ public:
 
     void setButtonPosition(sf::Vector2f position);
 
-    bool isMouseOver(sf::RenderWindow &window);
+    bool isMouseOver(const sf::RenderWindow &window);
     void swapColors(sf::RenderWindow &window);
     ~Button();
 };

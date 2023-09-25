@@ -1,4 +1,4 @@
-#include "Dialog.h"
+#include "GUI_logic/Dialog.h"
 
 
 
@@ -72,7 +72,7 @@ void Dialog::draw(sf::RenderTarget& target, sf::RenderStates state) const       
 
 }
 
-bool Dialog::isMouseOver(sf::RenderWindow &window)
+bool Dialog::isMouseOver(const sf::RenderWindow &window) const
 {   
     // Pokazanie aktualnej pozycji myszki
     float mouseX = sf::Mouse::getPosition(window).x;

@@ -1,10 +1,10 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 // #include <string.h>
-#include "Button.h"
-#include "Logo.h"
-#include "Dialog.h"
-#include "setup.h"
+#include "GUI_logic/Button.h"
+#include "GUI_logic/Logo.h"
+#include "GUI_logic/Dialog.h"
+#include "GUI_logic/setup.h"
 
 
 

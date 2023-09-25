@@ -1,4 +1,4 @@
-#include "Button.h"
+#include "GUI_logic/Button.h"
 
 
 Button::Button(const std::string text, float fontSize, sf::Vector2f size, sf::Vector2f position, sf::Color bgColor, sf::Color textColorr)
@@ -57,7 +57,7 @@ sf::Color Button::getTextColor()
 }
 
 
-bool Button::isMouseOver(sf::RenderWindow &window)
+bool Button::isMouseOver(const sf::RenderWindow &window)
 {   
     // Pokazanie aktualnej pozycji myszki
     float mouseX = sf::Mouse::getPosition(window).x;
@@ -115,7 +115,5 @@ Button::~Button()
     buttonText = nullptr;
     textColor = nullptr;
     font = nullptr;
-
-
 
 }
