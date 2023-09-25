@@ -27,9 +27,9 @@ int main()
 
     Logo logo("SNAKE");
 
-    Dialog dialog_2;
+    // Dialog dialog_2 = nullptr;
 
-    Dialog* dialog = new Dialog();
+    Dialog* dialog = nullptr;
 
     // Dialog* dialog_test = new Dialog();
 
@@ -115,6 +115,13 @@ int main()
             {
                 if(dialog == nullptr)
                 {
+
+                    if(b1.isMouseOver(window))
+                    {
+                        dialog = new Dialog();
+                    }
+
+
                     if(b2.isMouseOver(window))
                     {
                         window.close();
@@ -128,6 +135,15 @@ int main()
                     {
                         delete dialog;
                         dialog = nullptr;
+
+                    }
+
+                    else if(((*dialog).isMouseOver(window) == true) && (*dialog).getButton_2()->isMouseOver(window))
+                    {
+                        delete dialog;
+                        dialog = nullptr;
+
+                        window.close();
                     }
 
                 }
