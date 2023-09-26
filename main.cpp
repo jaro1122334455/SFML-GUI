@@ -15,10 +15,10 @@ int main()
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
 
-    Button b1("START", 50, {200, 70}, {setup::W / 2, setup::H / 2}, sf::Color(77, 144, 120), sf::Color(247, 129, 84));
-    Button b2("EXIT", 50, {200, 70}, {setup::W / 2, setup::H / 2 + 100}, sf::Color(77, 144, 120), sf::Color(247, 129, 84));
+    Button b1("START", 100, {400, 140}, {setup::W / 2, setup::H / 2}, sf::Color(77, 144, 120), sf::Color(247, 129, 84));
+    Button b2("EXIT", 100, {400, 140}, {setup::W / 2, setup::H / 2 + 200}, sf::Color(77, 144, 120), sf::Color(247, 129, 84));
 
-    Logo logo("SNAKE");
+    Logo logo("SNAKE", 300);
 
 
     Dialog* dialog = nullptr;
@@ -66,6 +66,7 @@ int main()
 
                     if(b1.isMouseOver(window))
                     {
+                        // std::cout << "test" << std::endl;
                         dialog = new Dialog();
                     }
 

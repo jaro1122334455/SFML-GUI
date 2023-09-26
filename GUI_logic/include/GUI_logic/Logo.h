@@ -14,7 +14,7 @@ private:
 
 public:
 
-    Logo(std::string text);
+    Logo(std::string text, float textSize);
 
     // ~Logo() = default;
 
