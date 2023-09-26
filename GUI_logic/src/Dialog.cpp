@@ -47,14 +47,6 @@ Dialog::Dialog()
     // this->button_1->setButtonPosition({150, 300});
     this->button_1->setButtonPosition({newX + (0.25f * dialWidth),newY + (0.77f * dialHeight)});
     this->button_2->setButtonPosition({newX + (0.75f * dialWidth),newY + (0.77f * dialHeight)});
-    // this->button_2->setButtonPosition({350, 300});
-
-    // this->button_1->setButtonPosition({this->dialShape.getLocalBounds().width, this->dialShape.getLocalBounds().height});
-
-    
-
-    // std::cout<< this->dialShape->getGlobalBounds().width << " " << this->dialShape->getGlobalBounds().height << std::endl;
- 
 
 }
 

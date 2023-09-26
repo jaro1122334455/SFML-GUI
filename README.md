@@ -26,6 +26,8 @@ sudo apt-get install libsfml-dev
 ```
 
 
+In file CMakeLists.txt in main folder and GUI_logic folder you need to change the path to SFML.
+
 ## Build and run project
 
 To build this project you just need to run the script.
